@@ -36,5 +36,5 @@ jobs:
 
         run: |
 
-          aws s3 sync . s3://task-web24 --delete
+          aws s3 sync ./space-static-website s3://task-web24 --delete
  
